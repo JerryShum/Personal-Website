@@ -1,0 +1,414 @@
+/* 
+
+! 01 TYPOGRAPHY SYSTEM
+
+* FONT SIZE SYSTEM (px)
+* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS: 
+Default: 500
+Bold: 700
+
+- LINE HEIGHTS:
+
+- LETTER SPACING:
+
+! 02 COLORS
+
+- Primary:
+
+- Tints: 
+
+- Shades:
+
+- Accents:
+
+- Greys:
+
+
+! 05 SHADOWS
+
+! 06 BORDER RADIUS
+
+! 07 WHITE SPACE
+
+* SPACING SYSTEM (px)
+* 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/** --------------------------------- */
+/** HEADER */
+/** --------------------------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* We use fixed height b/c we want it to be "sticky" -> we dont use padding */
+    height: 9.6rem;
+    padding: 4.8rem;
+
+    border-bottom: 1px solid #e8b5ce;
+}
+
+.logo {
+    height: 7.4rem;
+}
+
+/** --------------------------------- */
+/** Navigation */
+/** --------------------------------- */
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    gap: 4.8rem;
+}
+
+
+.nav-items:link,
+.nav-items:visited {
+    color: #eaebea;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+
+    transition: all 0.3s;
+
+}
+
+.nav-items:active,
+.nav-items:hover {
+    color: #e8b5ce;
+}
+
+/** --------------------------------- */
+/** Hero-Section */
+/** --------------------------------- */
+
+.section-hero {
+    padding: 4.8rem 0 9.6rem 0;
+    background: url(../img/Background\ Poly\ \(4\).svg) no-repeat bottom center;
+    background-size: cover;
+    z-index: -100;
+}
+
+.hero {
+    /*! We made this hero div to give the container a FIXED WIDTH */
+    max-width: 130rem;
+    min-height: 75vh;
+
+    /*! This will center the container in the viewport  */
+    margin: 0 auto;
+
+    /* Adding padding to help with viewport formatting (if its too small so it doesnt stick to window edge) */
+    padding: 0 3.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+
+}
+
+.hero-left {
+    align-items: start;
+    gap: 4.8rem;
+}
+
+.hero-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.6rem;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+}
+
+.hero-btn-container {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.hero-right {
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.current-work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #e8b5ce;
+    width: 100%;
+
+    padding: 1.2rem 0;
+}
+
+.current-work-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+}
+
+
+/** --------------------------------- */
+/** Project-Section */
+/** --------------------------------- */
+.section-projects {
+    padding: 4.8rem 0 4.8rem 0;
+
+}
+
+.proj-view:link,
+.proj-view:visited {
+    text-decoration: none;
+    color: #eaebea;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8rem;
+
+    transition: all 0.3s;
+}
+
+.proj-view:hover,
+.proj-view:active {
+    color: #e8b5ce;
+}
+
+/*? --------------------------------- */
+/*? Project-Cards-Section */
+/*? --------------------------------- */
+
+.cards {
+    margin: 4.8rem 0;
+    column-gap: 1.6rem;
+    padding: 0 5rem;
+    align-items: center;
+}
+
+.card {
+    font-size: 1.8rem;
+
+    background-color: #222425;
+    border: #e8b5ce 1px solid;
+
+    transition: all 0.3s;
+    overflow: hidden;
+
+    width: 100%;
+
+
+}
+
+/* .card-img-container {
+    max-width: 100%;
+} */
+
+.card-img-container {
+    overflow: hidden;
+}
+
+.card-img {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+.card-text {
+    border-top: 1px solid #e8b5ce;
+    padding: 1.2rem;
+}
+
+.card-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+
+}
+
+.card-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: rgb(234, 235, 234, 0.75);
+
+
+    margin-bottom: 2.4rem;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #e8b5ce;
+}
+
+.btn-card:link,
+.btn-card:visited {
+    background-color: #e8b5ce;
+    color: #181b19;
+}
+
+.btn-card:hover,
+.btn-card:active {
+    border: 1px solid #C58AA7;
+    background-color: #C58AA7;
+}
+
+/** --------------------------------- */
+/** Skills-Section */
+/** --------------------------------- */
+
+.skill-cards {
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+
+}
+
+.skill-card {
+    font-size: 1.8rem;
+
+    background-color: #222425;
+    color: rgb(234, 235, 234, 0.75);
+    border: #e8b5ce 1px solid;
+    border-radius: 1.2rem;
+
+    transition: all 0.3s;
+    overflow: hidden;
+
+    align-self: stretch;
+
+    width: 100%;
+}
+
+.skill-card:hover {
+    transform: translate(0, -1rem);
+}
+
+.skill-card-icon-container {
+    display: flex;
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    /* margin: 1.2rem 1.2rem 1.2rem 1.2rem; */
+}
+
+.skill-card-icon {
+    height: 4rem;
+    color: #eaebea;
+}
+
+.skill-card-text {
+    padding: 2.4rem;
+}
+
+.skill-card-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+}
+
+.skill-card-description {
+    line-height: 1.5;
+}
+
+/** --------------------------------- */
+/** About-Me Section */
+/** --------------------------------- */
+
+.section-about {
+    padding: 4.8rem 0 4.8rem 0;
+}
+
+.about-container {
+    margin: 4.8rem 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.about-description {
+    margin-bottom: 4.8rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+    color: rgb(234, 235, 234, 0.8);
+
+}
+
+/** --------------------------------- */
+/** Footer Section */
+/** --------------------------------- */
+
+.footer {
+    padding: 4.8rem 0 4.8rem 0;
+    border-top: 1px solid #e8b5ce;
+    background-color: #222425;
+}
+
+.footer-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+    color: rgb(234, 235, 234, 0.8);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    color: rgb(234, 235, 234, 0.8);
+}
