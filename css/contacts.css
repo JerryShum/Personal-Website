@@ -1,3 +1,81 @@
 .section-contacts {
     padding: 4.8rem 0 4.8rem 0;
 }
+
+/** --------------------------------- */
+/** Contact section */
+/** --------------------------------- */
+
+.section-contacts {
+    background: url(../img/contact_background.svg) no-repeat bottom center;
+    background-size: cover;
+    z-index: -100;
+}
+
+.contact-grid {
+    min-height: 50vh;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.contact-header {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: #eaebea;
+}
+
+.contact-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: #eaebea;
+
+    margin-bottom: 4rem;
+}
+
+.contact-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: rgba(234, 235, 234, 0.9);
+
+    margin-bottom: 4rem;
+}
+
+.contact-list {
+    list-style: none;
+
+    padding: 2.4rem;
+    border: 1px solid #e8b5ce;
+
+}
+
+.contact-list-item {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.list-link {
+    color: #eaebea;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.contact-icon {
+    height: 4rem;
+    fill: #eaebea !important;
+    stroke: #eaebea !important;
+    color: #eaebea !important;
+}
+
+.linkedin-icon {
+    height: 3.7rem;
+}
