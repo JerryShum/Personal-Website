@@ -210,6 +210,7 @@ Bold: 700
 
     background-color: #222425;
     border: #e8b5ce 1px solid;
+    /* border: #222425 1px solid; */
 
     transition: all 0.3s;
     overflow: hidden;
@@ -238,6 +239,7 @@ Bold: 700
 
 .card-text {
     border-top: 1px solid #e8b5ce;
+    /* border-top: #222425 1px solid; */
     padding: 1.2rem;
 }
 
@@ -303,7 +305,7 @@ Bold: 700
 
     background-color: #222425;
     color: rgb(234, 235, 234, 0.75);
-    border: #e8b5ce 1px solid;
+    /* border: #e8b5ce 1px solid; */
     border-radius: 1.2rem;
 
     transition: all 0.3s;
@@ -361,8 +363,6 @@ Bold: 700
 }
 
 .about-description {
-    margin-bottom: 4.8rem;
-
     font-family: 'Roboto', sans-serif;
     font-size: 2.4rem;
     font-weight: 400;

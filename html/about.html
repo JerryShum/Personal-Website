@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jerry Shum</title>
+    <title>About-me</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,14 +16,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/about.css" />
   </head>
-
-  <!-- ------------------------------------------------------------------------------------------------------------------- -->
-
   <body>
+    <!--! Header  -->
     <header class="header">
       <!--! Logo -->
-      <a href="#">
+      <a href="index.html">
         <img src="../img/Logo.svg" alt="Jerry Logo" class="logo" />
       </a>
 
@@ -45,7 +44,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-items">
+            <a href="projects.html" class="nav-items">
               <span class="accent-bold"> &lt; </span>
               Projects
               <span class="accent-bold">/&gt;</span>
@@ -62,130 +61,64 @@
       </nav>
     </header>
 
-    <!--! Hero Section -->
-    <section class="section-hero">
-      <div class="hero">
-        <div class="hero-left flex-vertical">
-          <div class="hero-text">
-            <div class="hero-header">Hi! I'm Jerry</div>
-            <div class="hero-description">
-              I'm a
-              <span class="accent-bold">Software Engineering </span> student
-              looking for a place to improve my skills!
+    <!--! About Me -->
+    <section class="section-about-jerry">
+      <div class="container">
+        <div class="about-heading">
+          <h1 class="heading-tertiary">About Me</h1>
+          <p class="subheading">Who is Jerry Shum?</p>
+        </div>
+        <div class="about-container grid grid--2-col about-page-container">
+          <div class="about-left">
+            <div class="about-description">
+              Hello! I'm Jerry Shum.
+              <br />
+              <br />
+              I'm currently a Software Engineering Student at OntarioTech
+              University. I've always had a passion for technology and software
+              engineering seemed like the perfect world for me to step into.
+              <br />
+              <br />
+              Currently, I've been very fascinated with web development and
+              strive to create beautiful, accessible, and dynamic websites for
+              both myself and eventually clients! <br /><br />
+
+              I always strive to learn more and more about Software and would
+              love some opportunity and experience.
             </div>
           </div>
-          <div class="hero-btn-container">
-            <a href="contacts.html" class="btn btn--primary">Contact Me</a>
-            <a href="#" class="btn btn--secondary">SOMETHING HERE &darr;</a>
-          </div>
-        </div>
 
-        <div class="hero-right flex-vertical">
-          <img
-            src="../img/imgplaceholder - Copy.png"
-            alt="Placeholder Image"
-            class="hero-img"
-          />
-          <div class="current-work-container">
-            <div class="current-work-text">
-              Currently working on <span class="accent-bold"> projects </span>
+          <div class="about-right">
+            <div class="about-img-container">
+              <img
+                src="../img/imgplaceholder - Copy.png"
+                alt="About Image"
+                class="about-img"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!--! Projects Section -->
-    <section class="section-projects">
+    <!--! What I Do -->
+    <section class="section-what-do">
       <div class="container">
-        <div class="flex-space-between">
+        <div>
           <h2 class="heading-secondary">
             <span class="accent-bold">&lt;</span>
-            Projects
+            What can I do?
             <span class="accent-bold">/&gt;</span>
           </h2>
 
-          <a href="#" class="proj-view">View All &rightarrow;</a>
-        </div>
-
-        <div class="cards grid grid--3-col">
-          <div class="card">
-            <div class="card-img-container">
-              <img
-                src="../img/project-img.png"
-                alt="Card Image"
-                class="card-img"
-              />
-            </div>
-
-            <div class="card-text">
-              <div class="card-heading">Card Heading</div>
-              <div class="card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-                illum?
-              </div>
-              <a href="#" class="btn btn-card">Preview</a>
-            </div>
-
-            <div class="card-footer">HTML,CSS, JS, React</div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-container">
-              <img
-                src="../img/project-img.png"
-                alt="Card Image"
-                class="card-img"
-              />
-            </div>
-
-            <div class="card-text">
-              <div class="card-heading">Card Heading</div>
-              <div class="card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-                illum?
-              </div>
-              <a href="#" class="btn btn-card">Preview</a>
-            </div>
-
-            <div class="card-footer">HTML,CSS, JS, React</div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-container">
-              <img
-                src="../img/project-img.png"
-                alt="Card Image"
-                class="card-img"
-              />
-            </div>
-
-            <div class="card-text">
-              <div class="card-heading">Card Heading</div>
-              <div class="card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-                illum?
-              </div>
-              <a href="#" class="btn btn-card">Preview</a>
-            </div>
-
-            <div class="card-footer">HTML,CSS, JS, React</div>
+          <div class="subheading text-readable">
+            I'm still learning! However, here are some skills I've built up over
+            the years:
           </div>
         </div>
-      </div>
-    </section>
 
-    <!--! Skills Section -->
-    <section class="section-skills">
-      <div class="container">
-        <h2 class="heading-secondary">
-          <span class="accent-bold">&lt;</span>
-          Skills
-          <span class="accent-bold">/&gt;</span>
-        </h2>
-
-        <div class="skill-cards grid grid--3-col grid--2-row">
-          <div class="skill-card">
+        <div class="skill-cards skill-cards-about grid grid--4-col grid--2-row">
+          <div class="skill-card skill-card-about">
             <div class="skill-card-icon-container">
               <img
                 src="../img/skill-icons/html5-original.svg"
@@ -300,47 +233,36 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!--! About Me Section -->
-    <section class="section-about">
-      <div class="container">
-        <h2 class="heading-secondary">
-          <span class="accent-bold">&lt;</span>
-          About Me
-          <span class="accent-bold">/&gt;</span>
-        </h2>
-
-        <div class="about-container grid grid--2-col">
-          <div class="about-left">
-            <div class="about-description medium-mb">
-              Hi, I'm Jerry!
-              <br />
-              <br />
-              I'm currently a Software Engineering Student at OntarioTech
-              University. I've always had a passion for technology and software
-              engineering seemed like the perfect world for me to step into.
-              <br />
-              <br />
-              Currently, I've been very fascinated with web development and
-              strive to create beautiful, accessible, and dynamic websites for
-              both myself and eventually clients! <br /><br />
-
-              I always strive to learn more and more about Software and would
-              love some opportunity and experience.
-            </div>
-            <a href="#" class="btn btn--primary">Learn More &rightarrow;</a>
-          </div>
-
-          <div class="about-right">
-            <div class="about-img-container">
+          <div class="skill-card">
+            <div class="skill-card-icon-container">
               <img
-                src="../img/imgplaceholder - Copy.png"
-                alt="About Image"
-                class="about-img"
+                src="../img/skill-icons/github-original 1.svg"
+                alt="Html Icon"
+                class="skill-card-icon"
               />
+            </div>
+            <div class="skill-card-text">
+              <div class="skill-card-heading">GitHub</div>
+              <div class="skill-card-description">
+                I have knowledge of the basic workings and functionalities of
+                GitHub.
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon-container">
+              <img
+                src="../img/skill-icons/github-original 1.svg"
+                alt="Html Icon"
+                class="skill-card-icon"
+              />
+            </div>
+            <div class="skill-card-text">
+              <div class="skill-card-heading">GitHub</div>
+              <div class="skill-card-description">
+                I have knowledge of the basic workings and functionalities of
+                GitHub.
+              </div>
             </div>
           </div>
         </div>
@@ -353,15 +275,13 @@
         <div class="grid grid--footer">
           <div class="footer-feedback footer-flex flex-vertical">
             <div class="footer-img">
-              <a href="#">
+              <a href="index.html">
                 <img src="../img/Logo.svg" alt="Jerry Logo" class="logo" />
               </a>
             </div>
             <div class="footer-text">
               Feedback? Suggestions? Please
-              <a href="contacts.html" class="underline footer-link"
-                >contact me!</a
-              >
+              <a href="#" class="underline footer-link">contact me!</a>
             </div>
             <div class="copyright">
               &copy; 2023 Jerry Shum. All Rights Reserved.

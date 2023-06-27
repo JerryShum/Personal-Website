@@ -1,0 +1,17 @@
+.large-proj-cards {
+    row-gap: 1.6rem;
+    padding: 0 !important;
+}
+
+.small-proj-cards {
+    row-gap: 1.6rem;
+    column-gap: 1.6rem;
+}
+
+.small-proj-card {
+    border: 1px solid #e8b5ce;
+}
+
+.small-card-text {
+    border-top: none !important;
+}

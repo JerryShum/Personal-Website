@@ -19,35 +19,6 @@
     align-items: center;
 }
 
-.contact-header {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 5.6rem;
-    font-weight: 700;
-    color: #eaebea;
-}
-
-.contact-subheading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
-    color: #eaebea;
-
-    margin-bottom: 4rem;
-}
-
-.contact-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
-    color: rgba(234, 235, 234, 0.9);
-
-    margin-bottom: 4rem;
-}
-
 .contact-list {
     list-style: none;
 

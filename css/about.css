@@ -1,0 +1,22 @@
+.section-about-jerry {
+    margin-bottom: 9.6rem;
+}
+
+.about-heading {
+    margin: 4.8rem 0;
+}
+
+.about-page-container {
+    justify-items: center;
+    align-items: start;
+
+    gap: 2.4rem;
+}
+
+/** What can I do */
+
+.skill-cards-about {
+    padding: 0;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
